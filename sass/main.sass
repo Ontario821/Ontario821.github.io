@@ -1,0 +1,710 @@
+@font-face
+	font-family: Proxima
+	src: url(../css/Proxima.otf)
+	font-weight: normal
+	font-style: normal
+
+h1, h2, h3, h4, h5, h6, p 
+	margin: 0
+	padding: 0
+
+html
+	font-size: 10px;
+
+body 
+	font-family: Proxima
+	padding: 0
+	margin: 0
+	background-color: #ffffff
+
+
+.form
+	input
+		display: block
+		margin: 3rem 0
+		border-radius: 5px
+		border: 1px solid #dddddd
+		width: 100%
+		padding: 1.5rem
+	label
+		position: absolute
+		display: inline-block
+		left: 50%
+		transform: translateX(-50%) translateY(-50%)
+		padding: 0.5rem
+		background-color: #ffffff
+		font-size: 1.3rem
+	&-btn
+		background-color: #ffb504
+		height: 5rem
+		padding: 1rem 4rem
+		border: 1px solid #ffba15
+		border-radius: 8px
+		text-transform: uppercase
+		font-size: 1.2rem
+		color: #ffffff
+
+.first
+	background: url("../img/header.png") center center no-repeat
+	background-size: cover
+
+.header
+	padding: 1rem
+
+.header-center
+	padding-top: 10rem
+
+.phone
+		a
+			color: #292929
+			font-size: 2rem
+			
+		
+
+.main-button
+	background-color: #ffb504
+	height: 5rem
+	padding: 1rem 4rem
+	border: 1px solid #ffba15
+	border-radius: 8px
+	text-transform: uppercase
+	font-size: 1.2rem
+	color: #ffffff
+	&:hover
+		background-color: #D89700
+
+.header-left-block
+	h1
+		font-size: 4rem
+		margin-bottom: 4rem
+		text-transform: uppercase
+		display: block
+		color: #292929
+		font-weight: 700
+		line-height: 58px
+	p
+		font-size: 2.4rem
+	span
+		font-size: 1.8rem
+		color: #ffffff
+		text-align: center
+		display: inline-block
+		background-color: #70c849
+		padding: 2rem 3rem
+		margin-top: 6rem
+	h5 
+		font-size: 2.2rem
+		text-transform: uppercase
+		font-weight: 700
+		margin-top: 3.7rem
+		margin-bottom: 10rem			
+
+.header-right-block
+	margin-top: 2rem
+	background-color: #ffffff
+	padding: 4rem 4rem
+	text-align: center
+	h2
+		margin-bottom: 4.5rem
+		font-size: 1.8rem
+	input
+		font-size: 1.6rem
+		display: block
+		margin: 3rem 0
+		border-radius: 5px
+		border: 1px solid #dddddd
+		width: 100%
+		padding: 1.5rem
+	label
+		position: absolute
+		display: inline-block
+		left: 50%
+		transform: translateX(-50%) translateY(-50%)
+		padding: 0.5rem
+		background-color: #ffffff
+		font-size: 1.3rem
+	button
+		display: block
+		width: 100%
+		height: 5.5rem
+		font-size: 1.6rem
+	small
+		display: block
+		margin-top: 1.5rem		
+		font-size: 1.2rem
+	textarea
+		display: block
+		margin: 3rem 0
+		border-radius: 5px
+		border: 1px solid #dddddd
+		width: 100%
+		padding: 1.5rem
+
+.features
+	padding: 10rem 0
+	h2
+		margin: 2rem 0 10rem
+		font-size: 3.6rem
+		font-weight: 700
+	&-block
+		text-align: center
+		h3
+			font-size: 2rem
+			font-weight: 700
+			margin-bottom: 2rem
+		p
+			display: inline-block
+			width: 80%
+			font-size: 1.6rem		
+	&-img
+		height: 8rem
+		margin-bottom: 3rem 
+	img
+		display: block
+		margin: 0 auto
+
+.slick-active
+	outline: none
+
+.arrow
+	top: 50%
+	transform: translateY(-50%)
+	position: absolute
+	z-index: 99
+	width: 2rem
+	height: 2rem
+	border: none
+	background-size: 100%	
+
+.prev
+	background: url(../img/left-arrow.svg) center no-repeat
+	left: 0
+
+.next
+	background: url(../img/right-arrow.svg) center no-repeat
+	right: 0
+
+.prices
+	padding: 10rem 0
+	background: green url(../img/prices-bg.jpg) center
+	margin: 2rem 0 10rem
+	margin-bottom: 0
+	text-align: center
+
+.price-block
+	padding: 1rem 3rem 4rem
+	min-height: 50rem
+	background-color: #ffffff
+	box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17)
+	text-align: center
+	h4
+		margin: 3rem 0
+		font-size: 1.9rem
+		font-weight: 700
+	img
+		display: inline-block
+		margin-bottom: 2rem
+		
+.price-tag
+	display: block
+	margin-bottom: 2rem
+	font-size: 1.9rem
+	font-weight: 700 
+
+.price-list
+	font-size: 1.5rem
+	padding: 0
+	list-style: none
+	min-height: 14rem
+	line-height: 2.5rem
+	li
+		&:before
+			content: ''
+			display: inline-block
+			margin-right: 1rem
+			width: 1.4rem
+			height: 1.4rem
+			background: url(../img/check.svg) no-repeat center
+			background-size: 100%
+			vertical-align: middle
+
+.section-header
+	&-light
+	margin-top: 0
+	margin-bottom: 9rem
+	color: #ffffff
+	h2
+		font-size: 3.6rem
+		font-weight: 700
+	p
+		margin-top: 4rem
+		font-size: 1.4rem	
+
+.price-button
+	text-align: right
+
+
+.feedback
+	position: relative
+	background: url(../img/feedback/feedback-bg.jpg) no-repeat center
+	background-size: cover
+	&-prev-btn
+		left: -4rem
+	&-next-btn
+		right: -4rem
+	&-text
+		position: relative
+		margin-top: 2rem
+		padding: 1rem
+		border: 2px solid green
+		font-style: italic
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			top: -2rem
+			left: 4rem
+			width: 2rem
+			height: 2rem
+			background-color: #ffffff
+			border: 2px solid green
+			border-bottom: none
+			border-top-right-radius: 100px		
+	&-slider
+		font-size: 1.6rem
+		padding: 5rem 6rem
+		background-color: #ffffff
+		box-shadow: 0 12px 18px rgba(0, 0, 0, 0.11)
+		.media
+			margin-top: 3rem
+			h5
+				font-size: 1.6rem
+				font-weight: 700	
+		&-btn
+			position: absolute
+			top: 50%
+			transform: translateY(-50%)
+			width: 4rem
+			height: 5rem
+			border: none
+			img
+				position: absolute
+				top: 0%
+				right: 0%	 
+	&-form
+		text-align: center
+		margin-top: 5rem
+		padding: 4rem 10rem
+		background-color: #ffffff
+		font-size: 1.6rem
+		h3
+			font-size: 2rem
+			font-weight: 700
+		label
+			transform: translate(-50%, 17px)
+			font-weight: 700
+
+.hand
+	position: absolute
+	bottom: -9rem
+	left: 7rem
+	max-width: 30rem
+
+/*Схема работы*/
+.scheme
+	margin-top: 20rem
+	background: #fff url(../img/schema-bg.png) bottom -10rem right -10rem no-repeat
+	background-size: 65rem
+	.section-header
+		color: #1a1820
+		text-align: center
+		
+		p
+			font-size: 1.6rem
+			line-height: 18px
+	&-block
+		min-height: 30rem
+		font-size: 1.7rem
+		h3
+			font-size: 2.2rem
+			font-weight: 700
+		p
+			font-weight: 400
+			line-height: 18px
+			margin-top: 1rem
+
+/*Всё на 100% включено*/
+.all-inclusive
+	background-color: #f5f5f5
+	padding-top: 10rem
+	padding-bottom: 6rem
+	.section-header
+		color: #358015
+		text-align: center
+		p
+			font-size: 1.6rem
+			color: #1a1820	
+.circle
+	display: inline-block
+	background-color: green
+	width: 100%
+	height: 100%
+	border-radius: 50%
+	&-border
+		display: inline-block
+		width: 5rem
+		min-width: 5rem
+		height: 5rem
+		padding: 0.3rem
+		border: 2px solid green
+		border-radius: 50%
+		text-align: center
+		line-height: 4rem
+		color: white
+		font-size: 2rem
+.flex
+	
+.media
+	min-height: 10rem 	
+.media-body
+	font-size: 1.3rem
+	line-height: 13px
+	font-weight: 300
+	.mt-0
+		font-weight: 700
+		font-size: 1.5rem
+		line-height: 15px
+
+/*Мы развеем все опасения*/
+.problems
+	position: relative
+	padding-bottom: 9rem
+	&-woman
+		position: absolute
+		width: 30rem
+		bottom: 0
+		left: 50%
+		margin-left: -19rem
+	.section-header
+		color: black
+		text-align: center
+		h2
+			font-size: 2.6rem
+			padding-top: 6.2rem
+			font-weight: 700
+	&-list
+		font-size: 1.2rem
+		border: 4px solid
+		padding: 2rem
+		min-height: 35rem
+		margin-bottom: 2rem
+		h4
+			color: #313131
+			font-size: 2.1rem
+			opacity: 0.5
+		ul
+			padding-left: 0
+			padding-top: 2rem
+			list-style: none
+			li
+				position: relative
+				margin-bottom: 3rem
+				padding-left: 3.5rem	
+				&:before
+						content: ''
+						position: absolute
+						left: 0
+						top: 50%
+						transform: translateY(-50%)
+						display: inline-block
+						width: 3rem
+						height: 3rem	
+
+.problems-list_bad
+	border: 4px solid #e8e8e8
+	ul li:before
+		background: url(../img/problem.svg) no-repeat
+		background-size: 70%
+
+.problems-list_good
+	h4
+		opacity: 1
+		font-weight: 700
+	ul li:before
+				background: url(../img/checked-symbol.svg) no-repeat
+				background-size: 70%		
+
+
+/*Материалы*/
+
+.materials
+	background: #fff url(../img/materials-bg.png) center no-repeat
+	background-size: cover
+	padding: 10rem 0
+	text-align: center
+	.section-header
+		color: black
+		margin-bottom: 3rem
+		p
+			font-size: 1.7rem
+	&-slider
+		padding-top: 5rem
+	&-link
+		display: block
+		color: green
+		margin-top: 2rem
+		font-size: 1.6rem
+		line-height: 18px
+		&:hover
+			color: green
+	&-offer
+		margin-top: 4rem
+		font-size: 1.8rem
+		font-weight: 400
+		line-height: 18px			
+	img
+		display: block
+		margin: 0 auto
+
+.mp-755
+	margin-bottom: 1.5rem
+
+.gicema
+	color: green
+	display: inline-block
+	&:hover
+		color: green
+
+/*Посмотрите как мы работаем*/
+.tour
+	background: #fff url(../img/tour.png) center no-repeat
+	background-size: cover
+
+.tour-subtitle
+	p
+		font-size: 2rem
+
+.main-subtitle
+	margin-top: 2rem
+
+.header-right-block
+	margin-bottom: 8rem	
+
+
+/* Дополнительные услуги */
+.upsell
+	padding-bottom: 4rem
+	padding-top: 10rem
+	text-align: center
+	background: #286b0a
+	&-block
+		text-align: center
+		color: white
+		min-height: 30rem
+		img
+			display: inline-block
+			margin-bottom: 2rem
+			width: 100%
+			max-width: 30rem
+		p
+			font-size: 1.5rem	
+			margin-bottom: 2rem
+
+.section-header
+	p
+		margin-top: 3.5rem
+
+/*Контакты*/
+.contacts
+	background: #fff url(../img/contacts-bg.png) center no-repeat
+	background-size: cover
+	font-size: 1.6rem
+	padding-top: 6rem
+	h2
+		font-weight: 700
+	p
+		margin-top: 2rem
+		margin-bottom: 2rem
+	&-link
+		display: inline-block
+		color: black
+		border-bottom: 1px dotted
+		&:hover
+			color: black
+
+.contacts-header
+	font-size: 3rem
+
+.header-right-block			
+	input
+		display: block
+		margin: 3rem 0
+		border-radius: 5px
+		border: 1px solid #dddddd
+		width: 100%
+		padding: 1.3rem	
+
+/*Footer*/
+footer
+	padding: 2rem 0
+	background: white
+
+.footer
+	p
+		margin: 0
+
+.footer-contacts
+	text-align: center
+	padding-top: 2rem
+	font-size: 1.7rem
+
+.footer-dev-logo
+	text-align: right
+
+.map
+	iframe
+		width: 100%
+		height: 300px
+		frameborder: 0
+		border: 0
+
+/*Оформление модальных окон*/
+.popup
+	display: none
+	position: fixed
+	left: 0
+	top: 0
+	bottom: 0
+	right: 0
+	width: 100%
+	height: 100%
+	z-index: 9
+	background-color: rgba(0, 0, 0, 0.5)
+	&-content
+		position: fixed
+		left: 50%
+		top: 10%
+		transform: translateX(-50%)
+		padding: 3rem 6rem
+		padding-bottom: 0
+		background-color: #ffffff
+	&-header
+		font-size: 2rem
+	&-header2
+		font-size: 1.5rem
+		margin-top: 1.5rem	
+	&-form
+		margin-top: 2rem
+		padding: 1rem
+	&-close
+		position: absolute
+		top: -1.5rem
+		right: -2rem
+		width: 2rem
+		text-align: center
+		border: none
+		background-color: transparent
+		font-size: 3rem
+		color: white
+	&-content
+		text-align: center
+	textarea
+		font-size: 1.6rem	
+
+.modal
+	font-size: 1.5rem
+	h3
+	margin-top: 3rem
+
+.modal-body
+	padding: 4rem 3rem
+
+@media (max-width: 1199px)
+	.feedback
+		&-form
+			padding: 3rem 5rem
+			label
+				transform: translate(-50%, 30%)	
+		.fotorama
+			margin-bottom: 3rem	 
+	.hand
+		display: none
+	.media
+		min-height: 11rem 
+	.problems-list
+		min-height: 40rem				
+
+@media (max-width: 990px)  
+	.first
+		background-position: top right
+	.header-center
+		text-align: center
+		padding-top: 2rem
+		margin-top: 1px			
+		h1
+			margin-bottom: 1rem
+		span
+			margin-top: 1rem
+		h5
+			margin-top: 1rem		
+		.header-right-block
+			margin-top: 0rem
+			margin-bottom: 4rem
+	.preimushestva-item
+		margin-top: 5rem
+	.price-button
+		text-align: center
+		padding: 2rem 0
+	.section-header-light
+		margin-bottom: 0
+	.price-block
+		margin-top: 2rem		
+	.feedback
+		&-form
+			label
+				transform: translate(-50%, 5%)
+	.hand
+		display: none
+	.scheme
+		background: none
+		margin-top: 10rem
+	.problems-list
+		min-height: auto	
+	.problems-woman
+		display: none
+	.tour
+		background: none
+		background-color: white
+	.contacts
+		background: none
+	foooter
+		text-align: center		
+	.footer-contacts
+		margin: 2rem 0
+	.footer-dev-logo
+		text-align: center
+
+
+@media (max-width: 767px)
+	.first
+		background-position: left
+	.feedback
+		&-prev-btn
+			left: 0
+		&-next-btn
+			right: 0	
+	.scheme
+		background: none
+		text-align: center
+
+@media (max-width: 504px)
+	.header-left-block
+		h1
+			font-size: 3rem
+			line-height: 38px
+
+@media (max-width: 389px)
+	.header-left-block
+		h1
+			font-size: 2rem
+			line-height: 28px						
